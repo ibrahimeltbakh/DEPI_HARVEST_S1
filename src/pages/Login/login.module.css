@@ -1,0 +1,9 @@
+.loggedin {
+  background-color: teal;
+}
+.notLoggedin {
+  background-color: red;
+}
+.p {
+  padding: 10px;
+}

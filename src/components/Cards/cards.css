@@ -1,0 +1,26 @@
+.product {
+  background-color: #fff;
+  border: 1px solid teal;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: teal;
+}
+.product .categoryPriceAndcount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.product .categoryPriceAndcount .category {
+  color: darkblue;
+}
+
+.product .categoryPriceAndcount .price {
+  color: darkslateblue;
+}
+.product .description {
+  color: #333;
+}
