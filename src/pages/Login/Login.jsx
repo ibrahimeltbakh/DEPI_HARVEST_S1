@@ -40,7 +40,7 @@ export default function Login() {
           Welcome {userName}{" "}
         </h2>
       ) : (
-        <h2 className={`${style.loggedin} ${style.p}`}>Welcome {userName} </h2>
+        <h2 className={`${style.loggedin} ${style.p}`}>Hello {userName} </h2>
       )}
     </div>
   );
